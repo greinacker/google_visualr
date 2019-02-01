@@ -40,7 +40,7 @@ For detailed documentation, please refer to the [GoogleVisualr API Reference](ht
 
 In your Rails layout, load Google Ajax API in the head tag, at the very top.
 
-    <script src='https://www.google.com/jsapi'></script>
+    <script src='https://www.gstatic.com/charts/loader.js'></script>
 
 In your Rails controller, initialize a GoogleVisualr::DataTable object with an empty constructor.
 
